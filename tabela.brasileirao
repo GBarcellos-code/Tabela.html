@@ -1,0 +1,351 @@
+<!DOCTYPE html>//made by Gabriel B
+<html lang="pt BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela do Brasileirão</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 65%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 2px;
+            text-align: center;
+        }
+        th {
+            background-color: #ffffff;
+        }
+        .nome{
+            text-align: left;
+        }
+
+        
+    
+    </style>
+</head>
+<body>
+    <h1>Tabela do Campeonato Brasileiro</h1>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th class="cinza">P</th>
+                <th>J</th>
+                <th class="cinza">V</th>
+                <th>E</th>
+                <th class="cinza">D</th>
+                <th>GP</th>
+                <th class="cinza">GC</th>
+                <th>SG</th>
+                <th class="cinza">%</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="posicaotopo">1</td>
+                <td class="nome">Corinthians</td> 
+                <td class="cinzadif">17</td>
+                <td>7</td>
+                <td class="cinza">5</td>
+                <td>2</td>
+                <td class="cinza">0</td>
+                <td>15</td>
+                <td class="cinza">8</td>
+                <td>7</td>
+                <td class="cinza">81</td>
+            </tr>
+            <tr>
+                <td class="posicaotopo">2</td>
+                <td class="nome">Ceara</td>
+                <td class="cinzadif">17</td>
+                <td>7</td>
+                <td class="cinza">5</td>
+                <td>2</td>
+                <td class="cinza">0</td>
+                <td>7</td>
+                <td class="cinza">1</td>
+                <td>6</td>
+                <td class="cinza">81</td>
+            </tr>
+            <tr>
+                <td class="posicaotopo">3</td>
+                <td class="nome">Fluminense</td>
+                <td class="cinzadif">15</td>
+                <td>7</td>
+                <td class="cinza">5</td>
+                <td>0</td>
+                <td class="cinza">2</td>
+                <td>11</td>
+                <td class="cinza">5</td>
+                <td>6</td>
+                <td class="cinza">71.4</td>
+            </tr>
+            <tr>
+                <td class="posicaotopo2">4</td>
+                <td class="nome">Santos</td>
+                <td class="cinzadif">12</td>
+                <td>7</td>
+                <td class="cinza">3</td>
+                <td>3</td>
+                <td class="cinza">1</td>
+                <td>15</td>
+                <td class="cinza">10</td>
+                <td>5</td>
+                <td class="cinza">57.1</td>
+            </tr>
+            <tr>
+                <td class="posicaomeio">5</td>
+                <td class="nome">São Paulo</td>
+                <td class="cinzadif">11</td>
+                <td>7</td>
+                <td class="cinza">3</td>
+                <td>2</td>
+                <td class="cinza">2</td>
+                <td>9</td>
+                <td class="cinza">6</td>
+                <td>3</td>
+                <td class="cinza">52.4</td>
+            </tr>
+            <tr>
+                <td class="posicaomeio">6</td>
+                <td class="nome">Goiás</td>
+                <td class="cinzadif">10</td>
+                <td>7</td>
+                <td class="cinza">3</td>
+                <td>1</td>
+                <td class="cinza">3</td>
+                <td>9</td>
+                <td class="cinza">10</td>
+                <td>-1</td>
+                <td class="cinza">47.6</td>
+            </tr>
+            <tr>
+                <td class="posicaomeio">7</td>
+                <td class="nome">Botafogo</td>
+                <td class="cinzadif">9</td>
+                <td>7</td>
+                <td class="cinza">2</td>
+                <td>3</td>
+                <td class="cinza">2</td>
+                <td>13</td>
+                <td class="cinza">11</td>
+                <td>2</td>
+                <td class="cinza">42.9</td>
+            </tr>
+            <tr>
+                <td class="posicaomeio">8</td>
+                <td class="nome">Flamengo</td>
+                <td class="cinzadif">9</td>
+                <td>7</td>
+                <td class="cinza">2</td>
+                <td>3</td>
+                <td class="cinza">2</td>
+                <td>9</td>
+                <td class="cinza">8</td>
+                <td>1</td>
+                <td class="cinza">42.9</td>
+            </tr>
+            <tr>
+                <td class="posicaomeio">9</td>
+                <td class="nome">Cruzeiro</td>
+                <td class="cinzadif">9</td>
+                <td>6</td>
+                <td class="cinza">2</td>
+                <td>3</td>
+                <td class="cinza">1</td>
+                <td>7</td>
+                <td class="cinza">6</td>
+                <td>1</td>
+                <td class="cinza">50</td>
+            </tr>
+            <tr>
+                <td class="posicaomeio">10</td>
+                <td class="nome">Guarani</td>
+                <td class="cinzadif">9</td>
+                <td>6</td>
+                <td class="cinza">2</td>
+                <td>3</td>
+                <td class="cinza">1</td>
+                <td>7</td>
+                <td class="cinza">7</td>
+                <td>0</td>
+                <td class="cinza">50</td>
+            </tr>
+            <tr>
+                <td class="posicaomeio">11</td>
+                <td class="nome">Palmeiras</td>
+                <td class="cinzadif">8</td>
+                <td>6</td>
+                <td class="cinza">2</td>
+                <td>2</td>
+                <td class="cinza">2</td>
+                <td>5</td>
+                <td class="cinza">4</td>
+                <td>1</td>
+                <td class="cinza">44.4</td>
+            </tr>
+            <tr>
+                <td class="posicaomeio">12</td>
+                <td class="nome">Grêmio</td>
+                <td class="cinzadif">8</td>
+                <td>7</td>
+                <td class="cinza">2</td>
+                <td>2</td>
+                <td class="cinza">3</td>
+                <td>10</td>
+                <td class="cinza">11</td>
+                <td>-1</td>
+                <td class="cinza">38.1</td>
+            </tr>
+            <tr>
+                <td class="posicaobaixo">13</td>
+                <td class="nome">Avaí</td>
+                <td class="cinzadif">8</td>
+                <td>7</td>
+                <td class="cinza">2</td>
+                <td>2</td>
+                <td class="cinza">3</td>
+                <td>10</td>
+                <td class="cinza">11</td>
+                <td>-1</td>
+                <td class="cinza">38.1</td>
+            </tr>
+            <tr>
+                <td class="posicaobaixo">14</td>
+                <td class="nome">Vitória</td>
+                <td class="cinzadif">8</td>
+                <td>7</td>
+                <td class="cinza">2</td>
+                <td>2</td>
+                <td class="cinza">3</td>
+                <td>7</td>
+                <td class="cinza">8</td>
+                <td>-1</td>
+                <td class="cinza">38.1</td>
+            </tr>
+            <tr>
+                <td class="posicaobaixo">15</td>
+                <td class="nome">Prudente</td>
+                <td class="cinzadif">8</td>
+                <td>6</td>
+                <td class="cinza">2</td>
+                <td>2</td>
+                <td class="cinza">2</td>
+                <td>9</td>
+                <td class="cinza">11</td>
+                <td>-2</td>
+                <td class="cinza">44.4</td>
+            </tr>
+            <tr>
+                <td class="posicaobaixo">16</td>
+                <td class="nome">Atlético-PR</td>
+                <td class="cinzadif">7</td>
+                <td>7</td>
+                <td class="cinza">2</td>
+                <td>1</td>
+                <td class="cinza">4</td>
+                <td>10</td>
+                <td class="cinza">15</td>
+                <td>-5</td>
+                <td class="cinza">33.3</td>
+            </tr>
+            <tr>
+                <td class="posicaorebaixado">17</td>
+                <td class="nome">Internacional</td>
+                <td class="cinzadif">6</td>
+                <td>6</td>
+                <td class="cinza">2</td>
+                <td>0</td>
+                <td class="cinza">4</td>
+                <td>10</td>
+                <td class="cinza">12</td>
+                <td>-2</td>
+                <td class="cinza">33.3</td>
+            </tr>
+            <tr>
+                <td class="posicaorebaixado">18</td>
+                <td class="nome">Atlético-MG</td>
+                <td class="cinzadif">6</td>
+                <td>7</td>
+                <td class="cinza">2</td>
+                <td>0</td>
+                <td class="cinza">5</td>
+                <td>10</td>
+                <td class="cinza">16</td>
+                <td>-6</td>
+                <td class="cinza">28.6</td>
+            </tr>
+            <tr>
+                <td class="posicaorebaixado">19</td>
+                <td class="nome">Vasco</td>
+                <td class="cinzadif">5</td>
+                <td>7</td>
+                <td class="cinza">1</td>
+                <td>2</td>
+                <td class="cinza">4</td>
+                <td>5</td>
+                <td class="cinza">12</td>
+                <td>-7</td>
+                <td class="cinza">23.8</td>
+            </tr>
+            <tr>
+                <td class="posicaorebaixado">20</td>
+                <td class="nome">Atlético-GO</td>
+                <td class="cinzadif">1</td>
+                <td>6</td>
+                <td class="cinza">0</td>
+                <td>1</td>
+                <td class="cinza">5</td>
+                <td>3</td>
+                <td class="cinza">9</td>
+                <td>-6</td>
+                <td class="cinza">5.6</td>
+            </tr>
+
+        </tbody>
+        
+    </table>
+        <span style="display: inline-block; width: 12px; height: 12px; background-color: #1d33af; vertical-align: middle; margin-right: 5px;"></span> <tc style="color: #8b8b8b;">TAÇA LIBERTADORES</tc>
+        <span style="display: inline-block; width: 12px; height: 12px; background-color: #2e9eca; vertical-align: middle; margin-right: 5px;"></span> <tc style="color: #8b8b8b;">PRÉ-LIBERTADORES</tc>
+        <span style="display: inline-block; width: 12px; height: 12px; background-color: #caa70b; vertical-align: middle; margin-right: 5px;"></span> <tc style="color: #8b8b8b;">SUL-AMERICANO</tc>
+        <span style="display: inline-block; width: 12px; height: 12px; background-color: #af2626; vertical-align: middle; margin-right: 5px;"></span > <tc style="color: #8b8b8b;">REBAIXADOS</tc>
+            <p style="font-size: small;">P pontos J jogos V vitórias E empates D derrotas GP gols pró GC gols contra SG saldo de gols (%) aproveitamento</p>
+    </body>
+</html>
+Código css:
+.posicaotopo {
+    color: #1d33af;
+     font-weight: bold; 
+ }
+ .posicaotopo2 {
+     color: #2e9eca;
+      font-weight: bold; 
+ }
+ .cinza {
+     background-color: rgb(202, 202, 202);
+ }
+ .cinzadif{
+     font-weight: 800;
+     background-color: rgb(202, 202, 202);
+ }
+ .posicaomeio {
+     color: #caa70b;
+     font-weight: bold; 
+ }
+ .posicaobaixo {
+     color: #b3b3b3;
+     font-weight: bold; 
+ }
+ .posicaorebaixado{
+     color: #af2626;
+     font-weight: bold; 
+ }
+
